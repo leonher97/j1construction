@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Our Projects — J1 Construction</title>
 <link rel="icon" type="image/png" href="assets/j1.png">
+<link rel="apple-touch-icon" href="assets/favicon/favicon-180.png">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -42,27 +43,41 @@
   <p>A look at builds we've delivered — from ground-up commercial construction to full storefront finish-outs.</p>
 </section>
 
-<main>
-  <div class="projects-grid">
+<section class="projects-marquee-wrap">
+  <div class="projects-marquee">
+    <div class="projects-track">
 
-    <div class="project-card">
-      <img src="assets/dutch-bros-project.jpg" alt="Dutch Bros Coffee completed construction project in El Paso, TX">
-      <div class="cap">Dutch Bros Coffee — El Paso, TX<br>Retail &amp; Drive-Thru Construction</div>
-    </div>
-    
-    <div class="project-card">
-      <img src="assets/1.jpg" alt="Dutch Bros Coffee completed construction project in El Paso, TX">
-      <div class="cap">Dutch Bros Coffee — El Paso, TX<br>Retail &amp; Drive-Thru Construction</div>
-    </div>
-    
-    <div class="project-card">
-      <img src="assets/2.jpg" alt="Dutch Bros Coffee completed construction project in El Paso, TX">
-      <div class="cap">Sonic — El Paso, TX<br>Retail &amp; Drive-Thru Construction</div>
-    </div>
+      <div class="project-card">
+        <img src="assets/dutch-bros-project.jpg" alt="Dutch Bros Coffee completed construction project in El Paso, TX">
+        <div class="cap">Dutch Bros Coffee — El Paso, TX<br>Retail &amp; Drive-Thru Construction</div>
+      </div>
 
-    
+      <div class="project-card">
+        <img src="assets/1.jpg" alt="Dutch Bros Coffee completed construction project in El Paso, TX">
+        <div class="cap">Dutch Bros Coffee — El Paso, TX<br>Retail &amp; Drive-Thru Construction</div>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/2.jpg" alt="Dutch Bros Coffee completed construction project in El Paso, TX">
+        <div class="cap">Dutch Bros Coffee — El Paso, TX<br>Retail &amp; Drive-Thru Construction</div>
+      </div>
+      
+
+      <!-- duplicated for a seamless loop -->
+      <div class="project-card" aria-hidden="true">
+        <img src="assets/dutch-bros-project.jpg" alt="">
+        <div class="cap">Dutch Bros Coffee — El Paso, TX<br>Retail &amp; Drive-Thru Construction</div>
+      </div>
+      <div class="project-card placeholder" aria-hidden="true">Project photo coming soon</div>
+      <div class="project-card placeholder" aria-hidden="true">Project photo coming soon</div>
+      <div class="project-card placeholder" aria-hidden="true">Project photo coming soon</div>
+      <div class="project-card placeholder" aria-hidden="true">Project photo coming soon</div>
+      <div class="project-card placeholder" aria-hidden="true">Project photo coming soon</div>
+
+    </div>
   </div>
-</main>
+  <p class="marquee-hint">Hover to pause</p>
+</section>
 
 <footer>© 2026 J1 Construction — Where design and construction meet.</footer>
 
